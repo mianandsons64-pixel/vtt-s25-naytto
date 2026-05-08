@@ -1,101 +1,534 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abstract Help Center</title>
-    <link rel="stylesheet" href="tyylit.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Pentagon Abstract – Help Center</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+
+
 </head>
+
 <body>
 
+<!-- =========================================================
+     BANNER
+========================================================= -->
+
+<div class="banner">
+
+  
+
+</div>
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
 <header class="header">
-    <div class="header__container">
-        <div class="header__logo">
-            <span class="logo-bold">pentagon</span>
-            <span class="logo-light">Abstract</span>
-            <span class="logo-divider">|</span>
-            <span class="help-text">Help Center</span>
-        </div>
-        <nav class="header__nav">
-            <button class="btn-request">Submit a request</button>
-            <button class="btn-signin">Sign in</button>
-        </nav>
-    </div>
+
+  <div class="header__inner">
+
+    <!-- Logo -->
+    <a href="#" class="header__logo">
+
+      <span class="material-icons header__logo-icon">
+        pentagon
+      </span>
+
+      <span>
+Pentagon Abstract      </span>
+
+    </a>
+
+    <!-- Navigation -->
+    <nav class="header__nav">
+
+      <ul class="header__nav-list">
+
+        <li>
+          <a class="header__nav-item" href="#">
+            Abstract
+          </a>
+        </li>
+
+        <li>
+          <a class="header__nav-item" href="#">
+            Releases
+          </a>
+        </li>
+
+        <li>
+          <a class="header__nav-item" href="#">
+            Blog
+          </a>
+        </li>
+
+        <li>
+          <a class="header__nav-item" href="#">
+            Jobs
+          </a>
+        </li>
+
+        <li>
+          <a class="header__nav-item" href="#">
+            Sign in
+          </a>
+        </li>
+
+        <li>
+          <a class="header__nav-item header__nav-item--btn" href="#">
+            Submit Request
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </div>
+
 </header>
 
+<!-- =========================================================
+     HERO
+========================================================= -->
+
 <section class="hero">
-    <div class="hero__content">
-        <h1>How can we help?</h1>
-        <div class="search-wrapper">
-            <input type="text" placeholder="Search" readonly class="search-input">
-            <span class="material-symbols-outlined arrow-icon">arrow_forward</span>
-        </div>
+
+  <div class="hero__inner">
+
+    <h1 class="hero__title">
+      How can we help?
+    </h1>
+
+    <!-- Professional Search -->
+    <div class="hero__search-wrapper">
+
+      <input
+        class="hero__search-input"
+        type="search"
+        placeholder="Search"
+        readonly
+      >
+
+      <button class="hero__search-btn">
+
+        <span class="material-icons">
+          search
+        </span>
+
+      </button>
+
     </div>
+
+  </div>
+
 </section>
 
-<main class="container">
-    <div class="grid">
-        <div class="card">
-            <div class="card__icon-box"><span class="material-symbols-outlined">layers</span></div>
-            <div class="card__content">
-                <h3>Using Abstract</h3>
-                <p>Abstract Desktop</p>
-                <p>Integrations</p>
-                <p>Abstract Web</p>
-                <a href="#">See 4 more →</a>
-            </div>
-        </div>
+<!-- =========================================================
+     MAIN
+========================================================= -->
 
-        <div class="card">
-            <div class="card__icon-box"><span class="material-symbols-outlined">account_circle</span></div>
-            <div class="card__content">
-                <h3>Manage your account</h3>
-                <p>Profile settings</p>
-                <p>Password & authentication</p>
-                <p>Notification settings</p>
-                <a href="#">See 6 more →</a>
-            </div>
-        </div>
+<main class="main">
 
-        <div class="card">
-            <div class="card__icon-box"><span class="material-symbols-outlined">credit_card</span></div>
-            <div class="card__content">
-                <h3>Manage billing</h3>
-                <p>Update billing info</p>
-                <p>Billing FAQ</p>
-                <p>Invoices</p>
-                <a href="#">See 4 more →</a>
-            </div>
-        </div>
-    </div>
+  <div class="main__inner">
+
+    <!-- Card 1 -->
+    <section class="section">
+
+      <div class="section__header">
+
+        <span class="section__icon material-icons">
+          dashboard_customize
+        </span>
+
+        <h2 class="section__title">
+          Using Pentagon Abstract
+        </h2>
+
+      </div>
+
+      <ul class="section__list">
+
+        <li>
+          <a href="#" class="section__link">
+            Abstract Desktop
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Integrations
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Abstract Web
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="#" class="section__more-link">
+        See more →
+      </a>
+
+    </section>
+
+    <!-- Card 2 -->
+    <section class="section">
+
+      <div class="section__header">
+
+        <span class="section__icon material-icons">
+          manage_accounts
+        </span>
+
+        <h2 class="section__title">
+          Manage your account
+        </h2>
+
+      </div>
+
+      <ul class="section__list">
+
+        <li>
+          <a href="#" class="section__link">
+            Profile settings
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Password & Authentication
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Notification settings
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="#" class="section__more-link">
+        See more →
+      </a>
+
+    </section>
+
+    <!-- Card 3 -->
+    <section class="section">
+
+      <div class="section__header">
+
+        <span class="section__icon material-icons">
+          payments
+        </span>
+
+        <h2 class="section__title">
+          Billing
+        </h2>
+
+      </div>
+
+      <ul class="section__list">
+
+        <li>
+          <a href="#" class="section__link">
+            Update billing info
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Billing FAQ
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Invoices
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="#" class="section__more-link">
+        See more →
+      </a>
+
+    </section>
+
+    <!-- Card 4 -->
+    <section class="section">
+
+      <div class="section__header">
+
+        <span class="section__icon material-icons">
+          groups
+        </span>
+
+        <h2 class="section__title">
+          Organizations & Users
+        </h2>
+
+      </div>
+
+      <ul class="section__list">
+
+        <li>
+          <a href="#" class="section__link">
+            Manage users
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Manage organizations
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            SAML SSO
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="#" class="section__more-link">
+        See more →
+      </a>
+
+    </section>
+
+    <!-- Card 5 -->
+    <section class="section">
+
+      <div class="section__header">
+
+        <span class="section__icon material-icons">
+          device_hub
+        </span>
+
+        <h2 class="section__title">
+          Branches & Projects
+        </h2>
+
+      </div>
+
+      <ul class="section__list">
+
+        <li>
+          <a href="#" class="section__link">
+            Creating branches
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Merging branches
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Projects
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="#" class="section__more-link">
+        See more →
+      </a>
+
+    </section>
+
+    <!-- Card 6 -->
+    <section class="section">
+
+      <div class="section__header">
+
+        <span class="section__icon material-icons">
+          terminal
+        </span>
+
+        <h2 class="section__title">
+          Debugging
+        </h2>
+
+      </div>
+
+      <ul class="section__list">
+
+        <li>
+          <a href="#" class="section__link">
+            Magic sync error
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Slow performance
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="section__link">
+            Version conflicts
+          </a>
+        </li>
+
+      </ul>
+
+      <a href="#" class="section__more-link">
+        See more →
+      </a>
+
+    </section>
+
+  </div>
+
 </main>
 
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
 <footer class="footer">
-    <div class="footer__grid">
-        <div class="footer__col">
-            <h4>Abstract</h4>
-            <p>Start Trial</p><p>Pricing</p><p>Download</p>
-        </div>
-        <div class="footer__col">
-            <h4>Resources</h4>
-            <p>Blog</p><p>Help Center</p><p>Release Notes</p><p>Status</p>
-        </div>
-        <div class="footer__col">
-            <h4>Community</h4>
-            <p>Twitter</p><p>LinkedIn</p><p>Facebook</p>
-        </div>
-        <div class="footer__col">
-            <h4>Company</h4>
-            <p>About Us</p><p>Careers</p><p>Legal</p>
-        </div>
-        <div class="footer__copyright">
-            <div class="footer-logo-box"><span class="material-symbols-outlined">help_outline</span></div>
-            <p>© Copyright 2022 <br> Abstract Studio Design, Inc.</p>
-        </div>
+
+  <div class="footer__inner">
+
+    <div class="footer__brand">
+
+      <a href="#" class="footer__logo">
+
+        <span class="material-icons footer__logo-icon">
+          pentagon
+        </span>
+
+        <span>
+          Pentagon
+Abstract
+        </span>
+
+      </a>
+
+      <p class="footer__tagline">
+        Design workflow tools to help teams work together.
+      </p>
+
+      <p class="footer__copy">
+        © Copyright 2026
+      </p>
+
     </div>
+
+    <!-- Footer Nav -->
+
+    <nav class="footer__nav">
+
+      <div class="footer__col">
+
+        <h3 class="footer__col-title">
+          Resources
+        </h3>
+
+        <ul class="footer__col-list">
+
+          <li>
+            <a href="#" class="footer__link">
+              Blog
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer__link">
+              Help Center
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer__link">
+              Status
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer__col">
+
+        <h3 class="footer__col-title">
+          Company
+        </h3>
+
+        <ul class="footer__col-list">
+
+          <li>
+            <a href="#" class="footer__link">
+              About
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer__link">
+              Careers
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer__link">
+              Legal
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </div>
+
 </footer>
+
+<!-- =========================================================
+     FLOATING HELP BUTTON
+========================================================= -->
+
+<a href="#" class="help-btn">
+
+  <span class="material-icons">
+    help_outline
+  </span>
+
+  <span>
+    Help
+  </span>
+
+</a>
 
 </body>
 </html>
