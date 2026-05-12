@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Help Center</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Google Material Icons (used for logo + search arrow only) -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <link rel="stylesheet" href="tyylit.css" />
+</head>
+<body>
+
+  
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header">
+    <div class="header__inner">
+
+      <!-- Logo -->
+     <a href="#home" class="header__logo">
+         <!-- Added Abstract text only --> <span>Abstract</span>
+        <img src="images/Abstract logo.png" alt="Abstract logo" class="header__logo-img" />
+        <span class="header__logo-divider" aria-hidden="true">|</span>
+        <span class="header__logo-sub">Help Center</span>
+        
+      </a>
+
+      <!-- Nav actions -->
+      <nav class="header__nav">
+        <a href="#submit" class="btn btn--outline">Submit a request</a>
+        <a href="#signin" class="btn btn--filled">Sign in</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__heading">How can we help?</h1>
+      <div class="hero__search">
+        <input
+          class="hero__search-input"
+          type="text"
+          placeholder="Search"
+          aria-label="Search help articles"
+          readonly
+        />
+        <button
+          class="hero__search-btn"
+          aria-label="Search"
+          type="button"
+          onclick="return false;"
+          disabled
+        >
+          <span class="material-icons">arrow_forward</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT – Cards ===== -->
+  <main class="main">
+    <div class="cards">
+
+      <!-- Card: Branches -->
+      <!-- Put your local icon file inside the images/ folder and update the src below -->
+      <article class="card">
+        <div class="card__icon-wrap">
+          <img class="card__icon-img" src="images/branches.png" alt="Branches icon" />
+        </div>
+        <div class="card__body">
+          <h2 class="card__title">Branches</h2>
+          <p class="card__desc">Manage, version, and document your designs in one place.</p>
+          <a href="#branches" class="card__link">Learn More →</a>
+        </div>
+      </article>
+
+      <!-- Card: Manage your account -->
+      <article class="card">
+        <div class="card__icon-wrap">
+          <img class="card__icon-img" src="images/Manage Account.png" alt="Manage your account icon" />
+        </div>
+        <div class="card__body">
+          <h2 class="card__title">Manage your account</h2>
+          <p class="card__desc">Configure your account settings, such as your email, profile details, and password.</p>
+          <a href="#account" class="card__link">Learn More →</a>
+        </div>
+      </article>
+
+      <!-- Card: Manage organizations -->
+      <article class="card">
+        <div class="card__icon-wrap">
+          <img class="card__icon-img" src="images/Groups and team.png" alt="Organizations icon" />
+        </div>
+        <div class="card__body">
+          <h2 class="card__title">Manage organizations, teams, and projects</h2>
+          <p class="card__desc">Use organizations, teams, and projects to organize your people and your work.</p>
+          <a href="#organizations" class="card__link">Learn More →</a>
+        </div>
+      </article>
+
+      <!-- Card: Manage billing -->
+      <article class="card">
+        <div class="card__icon-wrap">
+          <img class="card__icon-img" src="images/billing.png" alt="Billing icon" />
+        </div>
+        <div class="card__body">
+          <h2 class="card__title">Manage billing</h2>
+          <p class="card__desc">Change subscriptions and payment details.</p>
+          <a href="#billing" class="card__link">Learn More →</a>
+        </div>
+      </article>
+
+      <!-- Card: Authenticate -->
+      <article class="card">
+        <div class="card__icon-wrap">
+          <img class="card__icon-img" src="images/authenticate.png" alt="Authenticate icon" />
+        </div>
+        <div class="card__body">
+          <h2 class="card__title">Authenticate to Abstract</h2>
+          <p class="card__desc">Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+          <a href="#authenticate" class="card__link">Learn More →</a>
+        </div>
+      </article>
+
+      <!-- Card: Support -->
+      <article class="card">
+        <div class="card__icon-wrap">
+          <img class="card__icon-img" src="images/support.png" alt="Support icon" />
+        </div>
+        <div class="card__body">
+          <h2 class="card__title">Abstract support</h2>
+          <p class="card__desc">Get in touch with a human.</p>
+          <a href="#support" class="card__link">Learn More →</a>
+        </div>
+      </article>
+
+    </div><!-- /.cards -->
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+
+      <!-- Col 1 -->
+      <div class="footer__col">
+        <p class="footer__col-title">Help Center</p>
+        <ul class="footer__list">
+          <li><a href="#branches" class="footer__link">Branches</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="footer__col">
+        <p class="footer__col-title">Resources</p>
+        <ul class="footer__list">
+          <li><a href="#blog" class="footer__link">Blog</a></li>
+          <li><a href="#help-center" class="footer__link">Help Center</a></li>
+          <li><a href="#release-notes" class="footer__link">Release Notes</a></li>
+          <li><a href="#status" class="footer__link">Status</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="footer__col">
+        <p class="footer__col-title">Community</p>
+        <ul class="footer__list">
+          <li><a href="#twitter" class="footer__link">Twitter</a></li>
+          <li><a href="#linkedin" class="footer__link">LinkedIn</a></li>
+          <li><a href="#facebook" class="footer__link">Facebook</a></li>
+          <li><a href="#dribbble" class="footer__link">Dribbble</a></li>
+          <li><a href="#podcast" class="footer__link">Podcast</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4 -->
+      <div class="footer__col">
+        <p class="footer__col-title">Company</p>
+        <ul class="footer__list">
+          <li><a href="#about" class="footer__link">About Us</a></li>
+          <li><a href="#careers" class="footer__link">Careers</a></li>
+          <li><a href="#legal" class="footer__link">Legal</a></li>
+        </ul>
+        <p class="footer__contact-title">Contact Us</p>
+        <a href="#contact" class="footer__link footer__link--contact">help@helpcenter.example</a>
+      </div>
+
+      
+      
+      
+      
+   
+
+<!-- Col 5: logo + copyright -->
+<div class="footer-column-copyright" id="copyright">
+
+  <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+    <span>Abstract</span>
+    <img src="images/Abstract logo.png" alt="Abstract logo" style="height:32px;">
+  </div>
+
+  <p class="footer__copyright">© Copyright 2024<br>Help Center, Inc.<br>All rights reserved</p>
+</div>
+</footer>
+```
