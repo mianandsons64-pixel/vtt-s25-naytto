@@ -10,4 +10,4 @@ This is a web development project hosted on GitHub Pages. It includes structured
 
 ## 🚀 How to Run
 To view the live version of this project, simply click the link below:
-[Live Website Link](https://mianandsons64-pixel.github.io/vtt-s25-naytto/palautusfolder/)
+https://mianandsons64-pixel.github.io/vtt-s25-naytto/
